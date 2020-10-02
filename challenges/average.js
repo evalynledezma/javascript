@@ -10,6 +10,7 @@ console.log(total[i])
 let average = (array) => array.reduce((a, b) => a + b) / array.length;
 console.log(average([1,2,3,4,5]));
 
+
 // Jordan's Solution
 const getAverage = arr => {
     const reducer = (total, currentValue) => total + currentValue;
