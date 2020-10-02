@@ -23,3 +23,22 @@ function stringChecker() {
 // - Challenge Four:
 //   - Write a javascript function that adds two strings together separated by a space.
 //   - ex: stringAdder(“hi”, “there”) // returns “hi there”
+
+
+// ## Code Challenges:
+// - Challenge yourself to build these in Javascript and Python.
+
+// - Challenge One:
+//   - Write a function that generates a random hexadecimal color code
+
+// - Challenge Two:
+//   - Write a function that takes in a string and returns the letters in alphabetical order
+//   - ex: function(“Hi there”) // eehhirt
+
+// - Challenge Three:
+//   - write a function that takes in a string separated by hyphens and prints the words in a hyphen-separated sequence after sorting them alphabetically.
+//   - ex: “green-red-black-white”
+//   - returns: “black-green-red-white”
+
+// - Challenge Four:
+//   - Write a function that takes in an object and prints all of the values inside of the given object
