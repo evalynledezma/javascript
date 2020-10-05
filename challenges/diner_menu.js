@@ -3,7 +3,6 @@
 // Bottega Diner
 
 
-
 // Have the Main Menu and a Sides Menu
 
 
@@ -36,3 +35,13 @@
 // Have breakfast, lunch, and dinner menu. Breakfast has different items, lunch and dinner have the same items but are different prices.
 
 // BONUS: Allow for item customization (how items are prepared, decide additional cost implications)
+
+
+
+
+var person = prompt ("Please enter your name", " ");
+console.log(person)
+alert(hello)
+
+
+
