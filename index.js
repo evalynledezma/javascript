@@ -1,13 +1,17 @@
-class Home {
-	constructor({ type, payment = "renting" }) {
-		this.type = type;
-		this.payment = payment;
-	}
-
-	static homeImprovement(yourHome) {
-		return (yourHome.payment === 'mortgage')
-	}
-}
-
-const choice1 = new Home ({type: "house", payment: "morgage"})
-console.log(Home.homeImprovement(choice1))
+const greeting = new Promise((resolve, reject) =>{
+	resolve('Hi there');
+	reject('Oops, bad greeting');
+  });
+  
+  const updateAccount = new Promise((resolve, reject) => {
+	resolve('Updating last login...');
+	reject('Error updating account with login.');
+  });
+  
+  const loginActivities = Promise.all([greeting, updateAccount]);
+  
+  loginActivities.then(res => {
+	res.forEach(activity => {
+	  console.log(activity);
+	})
+  })
